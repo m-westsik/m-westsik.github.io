@@ -3,7 +3,7 @@ Personal Continuous Professional Development portfolio
 
 Strata by HTML5 UP
 html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Free for personal and commercial use under the CCA 4.0 license (html5up.net/license)
 
 
 A simple, minimalist template that actually began life as an unused redesign of my
