@@ -2075,7 +2075,7 @@ input, select, textarea {
 
 .marquee-content {
     display: flex;
-    animation: marquee 15s linear infinite; /* Adjust duration as needed */
+    animation: marquee 20s linear infinite; /* Adjust duration as needed */
     position: absolute;
     top: 0;
     left: 0;
@@ -2086,7 +2086,7 @@ input, select, textarea {
     /* Set the height to match the marquee container's height */
     height: 100%;
     width: auto;
-    object-fit: contain; /* Adjust to fit, preserving aspect ratio */
+	object-fit: contain; /* Adjust to fit, preserving aspect ratio */
     margin-right: 0em; /* Add spacing between images */
 }
 
@@ -2098,7 +2098,6 @@ input, select, textarea {
         transform: translateX(calc(-100% + 1em)); /* Slight adjustment to ensure seamless repeat */
     }
 }
-
 
 
 
@@ -2122,7 +2121,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 0.0;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -2199,6 +2198,16 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
+		
+		.image.smallfit {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 50%;
+		}
+
+			.image.fit img {
+				width: 100%;
+			}
 
 		.image.avatar {
 			border-radius: 100%;
@@ -2213,6 +2222,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			
 /* List */
 
 	ol {
